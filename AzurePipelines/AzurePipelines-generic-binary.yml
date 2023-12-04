@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'ubuntu-latest' 
+  name: 'ics_scan_iac' 
 
 jobs:
 - job: Rapid7_IaC_Scanner
